@@ -1,0 +1,103 @@
+{
+    "Annoucements": {
+        "Type": "Text",
+        "Override Roles": true,
+        "Roles": {
+            "@Creator": {
+                "Send": true,
+                "Read": true,
+                "React": true,
+                "Use Formatting": true,
+                "Edit": true,
+                "Delete Personal": true,
+                "Mention Others": true,
+                "Mention All": true,
+                "Use Emojis": true,
+                "Use Outside Emojis": true,
+                "Files": {
+                    "Disable All": false,
+                    "Images": true,
+                    "GIFs": true,
+                    "Text Documents": true,
+                    "Music": true,
+                    "Videos": true,
+                    "Unknown Types": true
+                },
+                "External Links": true,
+                "Embeds": true,
+                "Reply": true,
+                "Commands": true,
+                "Shortcuts": true
+            },
+            "@Everyone": {
+                "Send": false,
+                "Read": true,
+                "React": true,
+                "Use Formatting": false,
+                "Edit": false,
+                "Delete Personal": true,
+                "Mention Others": false,
+                "Mention All": false,
+                "Use Emojis": true,
+                "Use Outside Emojis": true,
+                "Files": {
+                    "Disable All": true,
+                    "Images": false,
+                    "GIFs": false,
+                    "Text Documents": false,
+                    "Music": false,
+                    "Videos": false,
+                    "Unknown Types": false
+                },
+                "External Links": false,
+                "Embeds": false,
+                "Reply": false,
+                "Commands": false,
+                "Shortcuts": false
+            }
+        }
+    },
+    "General": {
+        "Type": "Text",
+        "Override Roles": true,
+        "Roles": {
+            "@Everyone": {
+                "Send": true,
+                "Read": true,
+                "React": true,
+                "Use Formatting": true,
+                "Edit": true,
+                "Delete Personal": true,
+                "Mention Others": true,
+                "Mention All": false,
+                "Use Emojis": true,
+                "Use Outside Emojis": true,
+                "Files": {
+                    "Disable All": false,
+                    "Images": true,
+                    "GIFs": true,
+                    "Text Documents": true,
+                    "Music": true,
+                    "Videos": true,
+                    "Unknown Types": false
+                },
+                "External Links": true,
+                "Embeds": true,
+                "Reply": true,
+                "Commands": true,
+                "Shortcuts": true
+            }
+        }
+    },
+    "General VC": {
+        "Type": "Voice",
+        "Permissions": {
+            "Connect": true,
+            "Listen": true,
+            "Voice Commands": true,
+            "Self Mute": true,
+            "Self Deaf": true,
+            "Idle Time": "5m"
+        }
+    }
+}

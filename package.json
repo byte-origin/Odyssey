@@ -1,0 +1,23 @@
+{
+  "name": "byte-odyssey",
+  "version": "1.0.0",
+  "description": "A chat client made by BYTe",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ./app/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "byte-odyssey.github.io"
+  },
+  "keywords": [
+    "BYTe",
+    "BYte-Odyssey",
+    "Chat-Client"
+  ],
+  "author": "BYTe Company",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "electron": "^7.1.1"
+  }
+}

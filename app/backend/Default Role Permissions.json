@@ -1,0 +1,85 @@
+{
+    "Everybody": {
+        "Color": "#FFFFFF",
+        "Permissions": {
+            "Text": {
+                "Send": true,
+                "Read": true,
+                "React": true,
+                "Use Formatting": true,
+                "Edit": true,
+                "Delete Personal": true,
+                "Mention Others": true,
+                "Mention All": false,
+                "Use Emojis": true,
+                "Use Outside Emojis": true,
+                "Files": {
+                    "Disable All": false,
+                    "Images": true,
+                    "GIFs": true,
+                    "Text Documents": true,
+                    "Music": true,
+                    "Videos": true,
+                    "Unknown Types": false
+                },
+                "External Links": true,
+                "Embeds": true,
+                "Reply": true,
+                "Commands": true,
+                "Shortcuts": true
+            },
+            "Voice": {
+                "Connect": true,
+                "Listen": true,
+                "Voice Commands": true,
+                "Self Mute": true,
+                "Self Deaf": true,
+                "Idle Time": "5m"
+            },
+            "Moderation": {
+                "Kick": false,
+                "Ban": false,
+                "Text": {
+                    "Create Invite": true,
+                    "Delete Messages": false,
+                    "Mute": false,
+                    "Pin Messages": false
+                },
+                "Voice": {
+                    "Move": false,
+                    "Mute": false,
+                    "Deaf": false,
+                    "Disconnect": false
+                },
+                "Channels": {
+                    "Create": false,
+                    "Rename": false,
+                    "Delete": false,
+                    "Change Permissions": false,
+                    "Sort": false,
+                    "Change Type": false,
+                    "Set Slowmow": false,
+                    "Set Age Restriction": false
+                },
+                "Dividers": {
+                    "Create": false,
+                    "Rename": false,
+                    "Delete": false,
+                    "Change Permissions": false,
+                    "Sort": false,
+                    "Change Type": false,
+                    "Set Slowmow": false,
+                    "Set Age Restriction": false
+                },
+                "Roles": {
+                    "Create": false,
+                    "Rename": false,
+                    "Delete": false,
+                    "Change Color": false,
+                    "Change Permissions": false,
+                    "Sort": false
+                }
+            }
+        }
+    }
+}
